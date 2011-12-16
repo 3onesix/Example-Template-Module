@@ -16,3 +16,24 @@ public $content\_model\_name	= 'album_model';
 //content
 public $content_singular 	= 'album';
 ```
+
+### Actions
+These actions are provided by the Admin_Controller, and can be overrode by the controller
+
+#### index
+A list of 20 items with pagination.
+
+#### new
+The form view to add a new item to the database
+
+#### create
+The processing action for /new
+
+#### edit/:id
+The form view to edit an item from the database
+
+#### update/:id
+The processing action for /edit/:id
+
+#### destroy/:id
+The processing action to delete an item from the database
