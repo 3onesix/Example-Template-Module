@@ -10,8 +10,8 @@ Two admin controllers are including, demonstrating both a simple, no interventio
 public $controller_path 	= 'admin/albums';
 
 //module and model
-public $module\_name			= 'starter\_photos';
-public $content\_model\_name	= 'album_model';
+public $module_name			= 'starter_photos';
+public $content_model_name	= 'album_model';
 
 //content
 public $content_singular 	= 'album';
